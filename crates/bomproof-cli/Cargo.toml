@@ -1,6 +1,6 @@
 [package]
 name = "bomproof-cli"
-version.workspace = true
+version = "0.1.0-alpha.1"
 edition.workspace = true
 license.workspace = true
 publish = false
@@ -9,4 +9,4 @@ publish = false
 workspace = true
 
 [dependencies]
-bomproof-core = { path = "../bomproof-core" }
+bomproof-core = { version = "0.1.0-alpha.1", path = "../bomproof-core" }
